@@ -31,3 +31,12 @@ def size(L):
         count += 1
         L = L.next 
     return count
+
+
+def print_reverse(L):
+    nodes = []
+    while L:
+        nodes.append(L.data)
+        L = L.next
+    while nodes:
+        print(nodes.pop())
