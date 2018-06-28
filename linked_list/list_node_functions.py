@@ -6,7 +6,7 @@ def traverse(L):
 
 
 def search_list(L, key):
-    """ Search list for value, return value if present """
+    """ Search list for value, if present, return List beginning with value """
     while L and L.data != key:
         L = L.next
     # If key not found in list, L will be null
