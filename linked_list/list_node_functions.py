@@ -11,3 +11,15 @@ def search_list(L, key):
         L = L.next
     # If key not found in list, L will be null
     return L
+
+
+def insert_after(node, new_node):
+    """ Insert new node after node """
+    new_node.next = node.next
+    node.next = new_node 
+
+
+def delete_after(node):
+    """ Delete node after; assume node is not tail """
+    node.next = node.next.next
+    
