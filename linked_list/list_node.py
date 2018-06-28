@@ -35,11 +35,3 @@ class ListNode:
 
     def __str__(self):
         return self.__repr__()
-
-### Usage ###
-node1 = ListNode(1)
-node2 = ListNode(9)
-node3 = ListNode(3)
-
-node1.next = node2
-node2.next = node3
