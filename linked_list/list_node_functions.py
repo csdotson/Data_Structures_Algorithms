@@ -22,4 +22,12 @@ def insert_after(node, new_node):
 def delete_after(node):
     """ Delete node after; assume node is not tail """
     node.next = node.next.next
-    
+
+
+def size(L):
+    """ Number of nodes in linked list """
+    count = 0
+    while L:
+        count += 1
+        L = L.next 
+    return count
