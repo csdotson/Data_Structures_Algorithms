@@ -18,8 +18,10 @@ if __name__ == "__main__":
     leaf2 = BinaryTreeNode('C')
     leaf3 = BinaryTreeNode('D')
     leaf4 = BinaryTreeNode('E')
+    leaf5 = BinaryTreeNode('F')
 
     root.left = leaf1
     root.right = leaf2
     leaf1.left = leaf3
     leaf1.right = leaf4
+    leaf3.left = leaf5
